@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Ironing Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #1f3c88, #4b6cb7);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 38px;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      align-items: center;
+    }
+    .content img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+/* Men Women Children sections */
+.group-section {
+  margin-top: 60px;
+}
+
+.group-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.group-box {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.group-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.group-box h3 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #1f3c88;
+}
+
+.group-box ul {
+  padding-left: 18px;
+}
+
+.group-box ul li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .back {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 20px;
+      background-color: #1f3c88;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .back:hover {
+      background-color: #162c63;
+    }
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+    @media (max-width: 768px) {
+      .content {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Professional Ironing Services</h1>
+    <p>Perfectly pressed clothes with expert care</p>
+  </header>
+
+  <section>
+    <div class="content">
+      <div>
+        <h2>Why Choose Our Ironing Service?</h2>
+        <p>
+          Our professional ironing service ensures your clothes look sharp,
+          neat, and ready to wear. We use proper temperature control and
+          fabric-specific techniques to avoid damage while delivering
+          wrinkle-free perfection.
+        </p>
+        <ul>
+          <li>✔ Shirts, trousers, sarees & uniforms</li>
+          <li>✔ Safe ironing for cotton, linen, silk & wool</li>
+          <li>✔ Clean, hygienic and careful handling</li>
+          <li>✔ Professional finish for daily & formal wear</li>
+        </ul>
+      </div>
+      <img src="images/IroningService.jpg" alt="Professional Ironing">
+    </div>
+
+    <div class="group-section">
+  <h2>Ironing Services for Everyone</h2>
+
+  <div class="group-grid">
+
+    <div class="group-box">
+      <h3>Men’s Wear</h3>
+      <ul>
+        <li>✔ Shirts & trousers</li>
+        <li>✔ Office & formal wear</li>
+        <li>✔ Suits & uniforms</li>
+        <li>✔ Sharp creases & collars</li>
+      </ul>
+    </div>
+
+    <div class="group-box">
+      <h3>Women’s Wear</h3>
+      <ul>
+        <li>✔ Sarees & salwar suits</li>
+        <li>✔ Dresses & gowns</li>
+        <li>✔ Delicate & designer fabrics</li>
+        <li>✔ Gentle steam ironing</li>
+      </ul>
+    </div>
+
+    <div class="group-box">
+      <h3>Children’s Wear</h3>
+      <ul>
+        <li>✔ School uniforms</li>
+        <li>✔ Casual & party wear</li>
+        <li>✔ Low-heat safe ironing</li>
+        <li>✔ Soft fabric care</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+    <a href="index.html" class="back">← Back to Home</a>
+  </section>
+
+  <footer>
+     © CHAUHAN VANDITA ANANDBHAI.
+  </footer>
+
+</body>
+</html>
